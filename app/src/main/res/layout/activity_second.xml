@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jonathanmaldonado.listviews.SecondActivity">
+
+    <TextView
+        android:text="@string/with_view_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="StartMainActivity"
+        android:text="Go to ListView without View holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ListView android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/items_display_layout_with_VH">
+    </ListView>
+
+
+</LinearLayout>
